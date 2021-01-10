@@ -1,5 +1,5 @@
 flags=-Wno-deprecated -g -ggdb
-comp=g++
+comp=g++ -std=c++11
 prog=VRPB+FC+CBJ
 
 ins ?= GA1.txt

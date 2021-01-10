@@ -3,7 +3,7 @@
 
 
 void leer_archivo(void) {
-    ifstream file(instancia);
+    ifstream file(instancia.c_str());
     if(!file){
         cout<<"\nError al abrir el archivo\n";
         cout<<"Instruccion para ejecutar: make exe ins={instancia.txt}\n\n";

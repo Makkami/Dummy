@@ -76,7 +76,7 @@ void leer_archivo(void) {
        autos[i].dem_line = 0;
        autos[i].dem_back = 0;
        autos[i].dist_total = 0;
-       autos[i].tour = vector<int> {1};
+       autos[i].tour.push_back(1);
     }
     // Print de matriz de distnacias
     for(int k=0;k<n_vehiculos;k++){
